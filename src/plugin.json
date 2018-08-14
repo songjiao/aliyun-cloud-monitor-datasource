@@ -1,0 +1,32 @@
+{
+  "type": "datasource",
+  "name": "Aliyun Cloud Monitor",
+  "id": "aliyun-cloud-monitor-datasource",
+
+  "info": {
+    "description": "Aliyun cloud monitor datasource for grafana",
+    "author": {
+      "name": "Kuaishou Op Team",
+      "url": "http://www.kuaishou.com"
+    },
+    "keywords": ["grafana", "aliyun", "datasource"],
+    "logos": {
+      "small": "img/aliyun-logo.png",
+      "large": "img/aliyun-logo.png"
+    },
+    "links": [
+      {"name": "Project site", "url": "https://github.com/songjiao/aliyun-cloud-monitor-datasource"},
+      {"name": "Apache License", "url": "https://github.com/songjiao/aliyun-cloud-monitor-datasource/blob/master/LICENSE"}
+    ],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "5.2.x",
+    "plugins": [ ]
+  },
+
+  "metrics": true,
+  "annotations": false
+}
